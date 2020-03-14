@@ -11,7 +11,30 @@
 		1D958A022406B497008E0E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D958A012406B497008E0E58 /* Assets.xcassets */; };
 		1D958A052406B497008E0E58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D958A042406B497008E0E58 /* Preview Assets.xcassets */; };
 		1D958A082406B497008E0E58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D958A062406B497008E0E58 /* LaunchScreen.storyboard */; };
+		1D958A1C2406B75F008E0E58 /* RKCompatible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D958A142406B75F008E0E58 /* RKCompatible.swift */; };
+		1D958A1D2406B75F008E0E58 /* UIImage+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D958A152406B75F008E0E58 /* UIImage+RKAdd.swift */; };
+		1D958A1E2406B75F008E0E58 /* Date+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D958A162406B75F008E0E58 /* Date+RKAdd.swift */; };
+		1D958A1F2406B75F008E0E58 /* String+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D958A172406B75F008E0E58 /* String+RKAdd.swift */; };
+		1D958A202406B75F008E0E58 /* UIButton+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D958A182406B75F008E0E58 /* UIButton+RKAdd.swift */; };
+		1D958A212406B75F008E0E58 /* UIColor+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D958A192406B75F008E0E58 /* UIColor+RKAdd.swift */; };
+		1D958A232406B75F008E0E58 /* Dictionary+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D958A1B2406B75F008E0E58 /* Dictionary+RKAdd.swift */; };
 		1D958A252406B816008E0E58 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D958A242406B816008E0E58 /* HomeViewController.swift */; };
+		1DE595A3241D3B8800B2E67D /* CGFloat+Decimal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595A2241D3B8800B2E67D /* CGFloat+Decimal.swift */; };
+		1DE595A5241D3BAD00B2E67D /* Data+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595A4241D3BAD00B2E67D /* Data+RKAdd.swift */; };
+		1DE595A7241D3C2500B2E67D /* RKUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595A6241D3C2500B2E67D /* RKUtility.swift */; };
+		1DE595A9241D3C7A00B2E67D /* Int+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595A8241D3C7A00B2E67D /* Int+RKAdd.swift */; };
+		1DE595AB241D3C9800B2E67D /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595AA241D3C9800B2E67D /* NSObject+ClassName.swift */; };
+		1DE595AD241D3CC700B2E67D /* UIButton+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595AC241D3CC700B2E67D /* UIButton+Init.swift */; };
+		1DE595AF241D3CE000B2E67D /* UICollectionView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595AE241D3CE000B2E67D /* UICollectionView+Register.swift */; };
+		1DE595B1241D3D0900B2E67D /* UIColor+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B0241D3D0900B2E67D /* UIColor+Init.swift */; };
+		1DE595B3241D3D2E00B2E67D /* UIControl+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B2241D3D2E00B2E67D /* UIControl+RKAdd.swift */; };
+		1DE595B5241D3D5300B2E67D /* UIImageView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B4241D3D5300B2E67D /* UIImageView+Init.swift */; };
+		1DE595B7241D3D6800B2E67D /* UILabel+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B6241D3D6800B2E67D /* UILabel+Init.swift */; };
+		1DE595B9241D3DE100B2E67D /* UITableView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B8241D3DE100B2E67D /* UITableView+Register.swift */; };
+		1DE595BB241D3E1000B2E67D /* UITextField+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595BA241D3E1000B2E67D /* UITextField+Init.swift */; };
+		1DE595BD241D3E2500B2E67D /* UITextView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595BC241D3E2500B2E67D /* UITextView+Init.swift */; };
+		1DE595BF241D3E4500B2E67D /* UIView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595BE241D3E4500B2E67D /* UIView+Init.swift */; };
+		1DE595C1241D3E5B00B2E67D /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595C0241D3E5B00B2E67D /* UIView+Layer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,7 +44,30 @@
 		1D958A042406B497008E0E58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1D958A072406B497008E0E58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D958A092406B497008E0E58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D958A142406B75F008E0E58 /* RKCompatible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RKCompatible.swift; sourceTree = "<group>"; };
+		1D958A152406B75F008E0E58 /* UIImage+RKAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+RKAdd.swift"; sourceTree = "<group>"; };
+		1D958A162406B75F008E0E58 /* Date+RKAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+RKAdd.swift"; sourceTree = "<group>"; };
+		1D958A172406B75F008E0E58 /* String+RKAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+RKAdd.swift"; sourceTree = "<group>"; };
+		1D958A182406B75F008E0E58 /* UIButton+RKAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+RKAdd.swift"; sourceTree = "<group>"; };
+		1D958A192406B75F008E0E58 /* UIColor+RKAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+RKAdd.swift"; sourceTree = "<group>"; };
+		1D958A1B2406B75F008E0E58 /* Dictionary+RKAdd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+RKAdd.swift"; sourceTree = "<group>"; };
 		1D958A242406B816008E0E58 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1DE595A2241D3B8800B2E67D /* CGFloat+Decimal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Decimal.swift"; sourceTree = "<group>"; };
+		1DE595A4241D3BAD00B2E67D /* Data+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+RKAdd.swift"; sourceTree = "<group>"; };
+		1DE595A6241D3C2500B2E67D /* RKUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKUtility.swift; sourceTree = "<group>"; };
+		1DE595A8241D3C7A00B2E67D /* Int+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+RKAdd.swift"; sourceTree = "<group>"; };
+		1DE595AA241D3C9800B2E67D /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
+		1DE595AC241D3CC700B2E67D /* UIButton+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Init.swift"; sourceTree = "<group>"; };
+		1DE595AE241D3CE000B2E67D /* UICollectionView+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register.swift"; sourceTree = "<group>"; };
+		1DE595B0241D3D0900B2E67D /* UIColor+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Init.swift"; sourceTree = "<group>"; };
+		1DE595B2241D3D2E00B2E67D /* UIControl+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+RKAdd.swift"; sourceTree = "<group>"; };
+		1DE595B4241D3D5300B2E67D /* UIImageView+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Init.swift"; sourceTree = "<group>"; };
+		1DE595B6241D3D6800B2E67D /* UILabel+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Init.swift"; sourceTree = "<group>"; };
+		1DE595B8241D3DE100B2E67D /* UITableView+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Register.swift"; sourceTree = "<group>"; };
+		1DE595BA241D3E1000B2E67D /* UITextField+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Init.swift"; sourceTree = "<group>"; };
+		1DE595BC241D3E2500B2E67D /* UITextView+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Init.swift"; sourceTree = "<group>"; };
+		1DE595BE241D3E4500B2E67D /* UIView+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Init.swift"; sourceTree = "<group>"; };
+		1DE595C0241D3E5B00B2E67D /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				1D958A102406B636008E0E58 /* Example */,
+				1D958A0F2406B578008E0E58 /* Source */,
 				1D9589FB2406B493008E0E58 /* AppDelegate.swift */,
 				1D958A242406B816008E0E58 /* HomeViewController.swift */,
 				1D958A012406B497008E0E58 /* Assets.xcassets */,
@@ -71,6 +118,36 @@
 				1D958A042406B497008E0E58 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D958A0F2406B578008E0E58 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1DE595A2241D3B8800B2E67D /* CGFloat+Decimal.swift */,
+				1DE595A4241D3BAD00B2E67D /* Data+RKAdd.swift */,
+				1D958A162406B75F008E0E58 /* Date+RKAdd.swift */,
+				1D958A1B2406B75F008E0E58 /* Dictionary+RKAdd.swift */,
+				1DE595A8241D3C7A00B2E67D /* Int+RKAdd.swift */,
+				1DE595AA241D3C9800B2E67D /* NSObject+ClassName.swift */,
+				1D958A142406B75F008E0E58 /* RKCompatible.swift */,
+				1DE595A6241D3C2500B2E67D /* RKUtility.swift */,
+				1D958A172406B75F008E0E58 /* String+RKAdd.swift */,
+				1DE595AC241D3CC700B2E67D /* UIButton+Init.swift */,
+				1D958A182406B75F008E0E58 /* UIButton+RKAdd.swift */,
+				1DE595AE241D3CE000B2E67D /* UICollectionView+Register.swift */,
+				1DE595B0241D3D0900B2E67D /* UIColor+Init.swift */,
+				1D958A192406B75F008E0E58 /* UIColor+RKAdd.swift */,
+				1DE595B2241D3D2E00B2E67D /* UIControl+RKAdd.swift */,
+				1D958A152406B75F008E0E58 /* UIImage+RKAdd.swift */,
+				1DE595B4241D3D5300B2E67D /* UIImageView+Init.swift */,
+				1DE595B6241D3D6800B2E67D /* UILabel+Init.swift */,
+				1DE595B8241D3DE100B2E67D /* UITableView+Register.swift */,
+				1DE595BA241D3E1000B2E67D /* UITextField+Init.swift */,
+				1DE595BC241D3E2500B2E67D /* UITextView+Init.swift */,
+				1DE595BE241D3E4500B2E67D /* UIView+Init.swift */,
+				1DE595C0241D3E5B00B2E67D /* UIView+Layer.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 		1D958A102406B636008E0E58 /* Example */ = {
@@ -151,8 +228,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DE595B5241D3D5300B2E67D /* UIImageView+Init.swift in Sources */,
+				1D958A212406B75F008E0E58 /* UIColor+RKAdd.swift in Sources */,
 				1D9589FC2406B493008E0E58 /* AppDelegate.swift in Sources */,
+				1DE595AF241D3CE000B2E67D /* UICollectionView+Register.swift in Sources */,
+				1DE595C1241D3E5B00B2E67D /* UIView+Layer.swift in Sources */,
+				1DE595B1241D3D0900B2E67D /* UIColor+Init.swift in Sources */,
+				1DE595BB241D3E1000B2E67D /* UITextField+Init.swift in Sources */,
+				1DE595A5241D3BAD00B2E67D /* Data+RKAdd.swift in Sources */,
+				1D958A1D2406B75F008E0E58 /* UIImage+RKAdd.swift in Sources */,
+				1D958A202406B75F008E0E58 /* UIButton+RKAdd.swift in Sources */,
+				1D958A1E2406B75F008E0E58 /* Date+RKAdd.swift in Sources */,
+				1DE595BD241D3E2500B2E67D /* UITextView+Init.swift in Sources */,
+				1DE595B9241D3DE100B2E67D /* UITableView+Register.swift in Sources */,
+				1DE595BF241D3E4500B2E67D /* UIView+Init.swift in Sources */,
+				1DE595A9241D3C7A00B2E67D /* Int+RKAdd.swift in Sources */,
+				1DE595AD241D3CC700B2E67D /* UIButton+Init.swift in Sources */,
+				1DE595AB241D3C9800B2E67D /* NSObject+ClassName.swift in Sources */,
+				1D958A232406B75F008E0E58 /* Dictionary+RKAdd.swift in Sources */,
+				1D958A1C2406B75F008E0E58 /* RKCompatible.swift in Sources */,
+				1D958A1F2406B75F008E0E58 /* String+RKAdd.swift in Sources */,
+				1DE595A7241D3C2500B2E67D /* RKUtility.swift in Sources */,
+				1DE595B7241D3D6800B2E67D /* UILabel+Init.swift in Sources */,
+				1DE595A3241D3B8800B2E67D /* CGFloat+Decimal.swift in Sources */,
 				1D958A252406B816008E0E58 /* HomeViewController.swift in Sources */,
+				1DE595B3241D3D2E00B2E67D /* UIControl+RKAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
