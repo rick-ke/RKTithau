@@ -18,6 +18,4 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/rick-ke/RKTithau.git", :tag => "#{s.version}" }
   s.source_files = "RKTithau/Source/**/*"
 
-  s.requires_arc = true
-
 end
