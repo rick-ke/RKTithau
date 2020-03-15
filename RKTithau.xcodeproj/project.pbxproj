@@ -35,9 +35,11 @@
 		1DE595BD241D3E2500B2E67D /* UITextView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595BC241D3E2500B2E67D /* UITextView+Init.swift */; };
 		1DE595BF241D3E4500B2E67D /* UIView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595BE241D3E4500B2E67D /* UIView+Init.swift */; };
 		1DE595C1241D3E5B00B2E67D /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595C0241D3E5B00B2E67D /* UIView+Layer.swift */; };
+		3E66C9C7DAA3961E57F948C4 /* Pods_RKTithau.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F65105955D8D15A0252293C /* Pods_RKTithau.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C09F60C0C1E768A90100924 /* Pods-RKTithau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKTithau.release.xcconfig"; path = "Pods/Target Support Files/Pods-RKTithau/Pods-RKTithau.release.xcconfig"; sourceTree = "<group>"; };
 		1D9589F82406B493008E0E58 /* RKTithau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKTithau.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9589FB2406B493008E0E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D958A012406B497008E0E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -68,6 +70,8 @@
 		1DE595BC241D3E2500B2E67D /* UITextView+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Init.swift"; sourceTree = "<group>"; };
 		1DE595BE241D3E4500B2E67D /* UIView+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Init.swift"; sourceTree = "<group>"; };
 		1DE595C0241D3E5B00B2E67D /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
+		2F65105955D8D15A0252293C /* Pods_RKTithau.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RKTithau.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0DAD3239403916508EED9F /* Pods-RKTithau.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKTithau.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RKTithau/Pods-RKTithau.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E66C9C7DAA3961E57F948C4 /* Pods_RKTithau.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +91,8 @@
 			children = (
 				1D9589FA2406B493008E0E58 /* RKTithau */,
 				1D9589F92406B493008E0E58 /* Products */,
+				221975432773711ED2D88455 /* Pods */,
+				CAE7CDFB0D22F7A768BB859C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -157,6 +164,23 @@
 			path = Example;
 			sourceTree = "<group>";
 		};
+		221975432773711ED2D88455 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6A0DAD3239403916508EED9F /* Pods-RKTithau.debug.xcconfig */,
+				1C09F60C0C1E768A90100924 /* Pods-RKTithau.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAE7CDFB0D22F7A768BB859C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F65105955D8D15A0252293C /* Pods_RKTithau.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -164,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D958A0C2406B497008E0E58 /* Build configuration list for PBXNativeTarget "RKTithau" */;
 			buildPhases = (
+				6A2D7D6DD6E1F6E95067D1E0 /* [CP] Check Pods Manifest.lock */,
 				1D9589F42406B493008E0E58 /* Sources */,
 				1D9589F52406B493008E0E58 /* Frameworks */,
 				1D9589F62406B493008E0E58 /* Resources */,
+				FB7A55DEA471523A6C78D706 /* [CP] Embed Pods Frameworks */,
+				1869331055A8C5F4A7D6A8D8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -222,6 +249,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1869331055A8C5F4A7D6A8D8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RKTithau/Pods-RKTithau-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A2D7D6DD6E1F6E95067D1E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RKTithau-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7A55DEA471523A6C78D706 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RKTithau/Pods-RKTithau-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D9589F42406B493008E0E58 /* Sources */ = {
@@ -386,6 +464,7 @@
 		};
 		1D958A0D2406B497008E0E58 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A0DAD3239403916508EED9F /* Pods-RKTithau.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -394,10 +473,7 @@
 				DEVELOPMENT_TEAM = 7ABRZ6326B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RKTithau/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.rickke.RKTithau;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "rick all";
@@ -408,6 +484,7 @@
 		};
 		1D958A0E2406B497008E0E58 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C09F60C0C1E768A90100924 /* Pods-RKTithau.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -416,10 +493,7 @@
 				DEVELOPMENT_TEAM = 7ABRZ6326B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RKTithau/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tw.rickke.RKTithau;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "rick all";
