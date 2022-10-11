@@ -8,19 +8,28 @@
 
 import Foundation
 
-protocol SPClassNameProtocol {
+protocol RKClassNameProtocol {
     static var className: String { get }
     var className: String { get }
 }
 
-extension NSObject: SPClassNameProtocol {}
+extension NSObject: RKClassNameProtocol {}
 
-extension SPClassNameProtocol {
+extension RKClassNameProtocol {
     static var className: String {
         return String(describing: self)
     }
     
     var className: String {
         return type(of: self).className
+    }
+}
+
+extension NSObject {
+    func isKind(of aClassName: String) -> Bool {
+        guard let aClass = NSClassFromString(aClassName) else {
+            return false
+        }
+        return isKind(of: aClass)
     }
 }

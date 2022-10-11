@@ -7,6 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D20BF1828F54AED00B21C32 /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF1728F54AED00B21C32 /* Array+Extension.swift */; };
+		1D20BF1A28F54B2000B21C32 /* AVAsset+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF1928F54B2000B21C32 /* AVAsset+RKAdd.swift */; };
+		1D20BF1C28F54B7700B21C32 /* AVPlayer+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF1B28F54B7700B21C32 /* AVPlayer+RKAdd.swift */; };
+		1D20BF1E28F54BB500B21C32 /* Bool+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF1D28F54BB500B21C32 /* Bool+RKAdd.swift */; };
+		1D20BF2028F54BD700B21C32 /* Bundle+Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF1F28F54BD700B21C32 /* Bundle+Info.swift */; };
+		1D20BF2228F54C6500B21C32 /* UIApplication+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF2128F54C6500B21C32 /* UIApplication+RKAdd.swift */; };
+		1D20BF2428F54E9B00B21C32 /* CALayer+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF2328F54E9B00B21C32 /* CALayer+RKAdd.swift */; };
+		1D20BF2628F54F2500B21C32 /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF2528F54F2500B21C32 /* Collection+Safe.swift */; };
+		1D20BF2828F5525500B21C32 /* DispatchQueue+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF2728F5525500B21C32 /* DispatchQueue+RKAdd.swift */; };
+		1D20BF2A28F5527A00B21C32 /* Double+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF2928F5527A00B21C32 /* Double+RKAdd.swift */; };
+		1D20BF2C28F552C700B21C32 /* Error+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF2B28F552C700B21C32 /* Error+RKAdd.swift */; };
+		1D20BF2E28F552E100B21C32 /* FileManager+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF2D28F552E100B21C32 /* FileManager+RKAdd.swift */; };
+		1D20BF3028F5534700B21C32 /* NotificationCenter+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF2F28F5534700B21C32 /* NotificationCenter+RKAdd.swift */; };
+		1D20BF3428F5538300B21C32 /* NotificationName+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF3328F5538300B21C32 /* NotificationName+RKAdd.swift */; };
+		1D20BF3628F553E400B21C32 /* NSString+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF3528F553E400B21C32 /* NSString+RKAdd.swift */; };
+		1D20BF3828F5540400B21C32 /* Optional+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF3728F5540400B21C32 /* Optional+RKAdd.swift */; };
+		1D20BF3A28F5541A00B21C32 /* Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF3928F5541A00B21C32 /* Runtime.swift */; };
+		1D20BF3C28F5544E00B21C32 /* RKError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF3B28F5544E00B21C32 /* RKError.swift */; };
+		1D20BF4028F554C200B21C32 /* RKTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF3F28F554C200B21C32 /* RKTimer.swift */; };
+		1D20BF4228F5550200B21C32 /* String+Path.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF4128F5550200B21C32 /* String+Path.swift */; };
+		1D20BF4428F555EA00B21C32 /* TimeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF4328F555EA00B21C32 /* TimeConstants.swift */; };
+		1D20BF4628F5560F00B21C32 /* TimeInterval+Clock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF4528F5560F00B21C32 /* TimeInterval+Clock.swift */; };
+		1D20BF4828F556D400B21C32 /* UIActivityIndicatorView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF4728F556D400B21C32 /* UIActivityIndicatorView+Style.swift */; };
+		1D20BF4A28F558D700B21C32 /* UIDevice+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF4928F558D700B21C32 /* UIDevice+RKAdd.swift */; };
+		1D20BF4C28F5593600B21C32 /* UIEdgeInsets+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF4B28F5593600B21C32 /* UIEdgeInsets+RKAdd.swift */; };
+		1D20BF4E28F5595900B21C32 /* UIFont+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF4D28F5595900B21C32 /* UIFont+RKAdd.swift */; };
+		1D20BF5028F55A3300B21C32 /* UIScrollView+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF4F28F55A3300B21C32 /* UIScrollView+RKAdd.swift */; };
+		1D20BF5228F55B9F00B21C32 /* UIViewController+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF5128F55B9E00B21C32 /* UIViewController+RKAdd.swift */; };
+		1D20BF5428F55BE100B21C32 /* URL+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF5328F55BE100B21C32 /* URL+RKAdd.swift */; };
+		1D20BF5628F55C0F00B21C32 /* UserDefaults+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D20BF5528F55C0F00B21C32 /* UserDefaults+RKAdd.swift */; };
 		1D9589FC2406B493008E0E58 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D9589FB2406B493008E0E58 /* AppDelegate.swift */; };
 		1D958A022406B497008E0E58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D958A012406B497008E0E58 /* Assets.xcassets */; };
 		1D958A052406B497008E0E58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D958A042406B497008E0E58 /* Preview Assets.xcassets */; };
@@ -24,9 +54,7 @@
 		1DE595A7241D3C2500B2E67D /* RKUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595A6241D3C2500B2E67D /* RKUtility.swift */; };
 		1DE595A9241D3C7A00B2E67D /* Int+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595A8241D3C7A00B2E67D /* Int+RKAdd.swift */; };
 		1DE595AB241D3C9800B2E67D /* NSObject+ClassName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595AA241D3C9800B2E67D /* NSObject+ClassName.swift */; };
-		1DE595AD241D3CC700B2E67D /* UIButton+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595AC241D3CC700B2E67D /* UIButton+Init.swift */; };
 		1DE595AF241D3CE000B2E67D /* UICollectionView+Register.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595AE241D3CE000B2E67D /* UICollectionView+Register.swift */; };
-		1DE595B1241D3D0900B2E67D /* UIColor+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B0241D3D0900B2E67D /* UIColor+Init.swift */; };
 		1DE595B3241D3D2E00B2E67D /* UIControl+RKAdd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B2241D3D2E00B2E67D /* UIControl+RKAdd.swift */; };
 		1DE595B5241D3D5300B2E67D /* UIImageView+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B4241D3D5300B2E67D /* UIImageView+Init.swift */; };
 		1DE595B7241D3D6800B2E67D /* UILabel+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE595B6241D3D6800B2E67D /* UILabel+Init.swift */; };
@@ -40,6 +68,36 @@
 
 /* Begin PBXFileReference section */
 		1C09F60C0C1E768A90100924 /* Pods-RKTithau.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RKTithau.release.xcconfig"; path = "Pods/Target Support Files/Pods-RKTithau/Pods-RKTithau.release.xcconfig"; sourceTree = "<group>"; };
+		1D20BF1728F54AED00B21C32 /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		1D20BF1928F54B2000B21C32 /* AVAsset+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVAsset+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF1B28F54B7700B21C32 /* AVPlayer+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AVPlayer+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF1D28F54BB500B21C32 /* Bool+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bool+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF1F28F54BD700B21C32 /* Bundle+Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Info.swift"; sourceTree = "<group>"; };
+		1D20BF2128F54C6500B21C32 /* UIApplication+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF2328F54E9B00B21C32 /* CALayer+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF2528F54F2500B21C32 /* Collection+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Safe.swift"; sourceTree = "<group>"; };
+		1D20BF2728F5525500B21C32 /* DispatchQueue+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DispatchQueue+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF2928F5527A00B21C32 /* Double+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF2B28F552C700B21C32 /* Error+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Error+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF2D28F552E100B21C32 /* FileManager+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF2F28F5534700B21C32 /* NotificationCenter+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationCenter+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF3328F5538300B21C32 /* NotificationName+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NotificationName+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF3528F553E400B21C32 /* NSString+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSString+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF3728F5540400B21C32 /* Optional+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF3928F5541A00B21C32 /* Runtime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Runtime.swift; sourceTree = "<group>"; };
+		1D20BF3B28F5544E00B21C32 /* RKError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKError.swift; sourceTree = "<group>"; };
+		1D20BF3F28F554C200B21C32 /* RKTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKTimer.swift; sourceTree = "<group>"; };
+		1D20BF4128F5550200B21C32 /* String+Path.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Path.swift"; sourceTree = "<group>"; };
+		1D20BF4328F555EA00B21C32 /* TimeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeConstants.swift; sourceTree = "<group>"; };
+		1D20BF4528F5560F00B21C32 /* TimeInterval+Clock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+Clock.swift"; sourceTree = "<group>"; };
+		1D20BF4728F556D400B21C32 /* UIActivityIndicatorView+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicatorView+Style.swift"; sourceTree = "<group>"; };
+		1D20BF4928F558D700B21C32 /* UIDevice+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIDevice+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF4B28F5593600B21C32 /* UIEdgeInsets+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIEdgeInsets+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF4D28F5595900B21C32 /* UIFont+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF4F28F55A3300B21C32 /* UIScrollView+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF5128F55B9E00B21C32 /* UIViewController+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF5328F55BE100B21C32 /* URL+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URL+RKAdd.swift"; sourceTree = "<group>"; };
+		1D20BF5528F55C0F00B21C32 /* UserDefaults+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+RKAdd.swift"; sourceTree = "<group>"; };
 		1D9589F82406B493008E0E58 /* RKTithau.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RKTithau.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D9589FB2406B493008E0E58 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D958A012406B497008E0E58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,9 +117,7 @@
 		1DE595A6241D3C2500B2E67D /* RKUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RKUtility.swift; sourceTree = "<group>"; };
 		1DE595A8241D3C7A00B2E67D /* Int+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+RKAdd.swift"; sourceTree = "<group>"; };
 		1DE595AA241D3C9800B2E67D /* NSObject+ClassName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSObject+ClassName.swift"; sourceTree = "<group>"; };
-		1DE595AC241D3CC700B2E67D /* UIButton+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Init.swift"; sourceTree = "<group>"; };
 		1DE595AE241D3CE000B2E67D /* UICollectionView+Register.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Register.swift"; sourceTree = "<group>"; };
-		1DE595B0241D3D0900B2E67D /* UIColor+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Init.swift"; sourceTree = "<group>"; };
 		1DE595B2241D3D2E00B2E67D /* UIControl+RKAdd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIControl+RKAdd.swift"; sourceTree = "<group>"; };
 		1DE595B4241D3D5300B2E67D /* UIImageView+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Init.swift"; sourceTree = "<group>"; };
 		1DE595B6241D3D6800B2E67D /* UILabel+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Init.swift"; sourceTree = "<group>"; };
@@ -107,7 +163,6 @@
 		1D9589FA2406B493008E0E58 /* RKTithau */ = {
 			isa = PBXGroup;
 			children = (
-				1D958A102406B636008E0E58 /* Example */,
 				1D958A0F2406B578008E0E58 /* Source */,
 				1D9589FB2406B493008E0E58 /* AppDelegate.swift */,
 				1D958A242406B816008E0E58 /* HomeViewController.swift */,
@@ -130,38 +185,59 @@
 		1D958A0F2406B578008E0E58 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				1D20BF1728F54AED00B21C32 /* Array+Extension.swift */,
+				1D20BF1928F54B2000B21C32 /* AVAsset+RKAdd.swift */,
+				1D20BF1B28F54B7700B21C32 /* AVPlayer+RKAdd.swift */,
+				1D20BF1D28F54BB500B21C32 /* Bool+RKAdd.swift */,
+				1D20BF1F28F54BD700B21C32 /* Bundle+Info.swift */,
+				1D20BF2328F54E9B00B21C32 /* CALayer+RKAdd.swift */,
 				1DE595A2241D3B8800B2E67D /* CGFloat+Decimal.swift */,
+				1D20BF2528F54F2500B21C32 /* Collection+Safe.swift */,
 				1DE595A4241D3BAD00B2E67D /* Data+RKAdd.swift */,
 				1D958A162406B75F008E0E58 /* Date+RKAdd.swift */,
 				1D958A1B2406B75F008E0E58 /* Dictionary+RKAdd.swift */,
+				1D20BF2728F5525500B21C32 /* DispatchQueue+RKAdd.swift */,
+				1D20BF2928F5527A00B21C32 /* Double+RKAdd.swift */,
+				1D20BF2B28F552C700B21C32 /* Error+RKAdd.swift */,
+				1D20BF2D28F552E100B21C32 /* FileManager+RKAdd.swift */,
 				1DE595A8241D3C7A00B2E67D /* Int+RKAdd.swift */,
+				1D20BF2F28F5534700B21C32 /* NotificationCenter+RKAdd.swift */,
+				1D20BF3328F5538300B21C32 /* NotificationName+RKAdd.swift */,
 				1DE595AA241D3C9800B2E67D /* NSObject+ClassName.swift */,
+				1D20BF3528F553E400B21C32 /* NSString+RKAdd.swift */,
+				1D20BF3728F5540400B21C32 /* Optional+RKAdd.swift */,
 				1D958A142406B75F008E0E58 /* RKCompatible.swift */,
+				1D20BF3B28F5544E00B21C32 /* RKError.swift */,
+				1D20BF3F28F554C200B21C32 /* RKTimer.swift */,
 				1DE595A6241D3C2500B2E67D /* RKUtility.swift */,
+				1D20BF3928F5541A00B21C32 /* Runtime.swift */,
+				1D20BF4128F5550200B21C32 /* String+Path.swift */,
 				1D958A172406B75F008E0E58 /* String+RKAdd.swift */,
-				1DE595AC241D3CC700B2E67D /* UIButton+Init.swift */,
+				1D20BF4328F555EA00B21C32 /* TimeConstants.swift */,
+				1D20BF4528F5560F00B21C32 /* TimeInterval+Clock.swift */,
+				1D20BF4728F556D400B21C32 /* UIActivityIndicatorView+Style.swift */,
+				1D20BF2128F54C6500B21C32 /* UIApplication+RKAdd.swift */,
 				1D958A182406B75F008E0E58 /* UIButton+RKAdd.swift */,
 				1DE595AE241D3CE000B2E67D /* UICollectionView+Register.swift */,
-				1DE595B0241D3D0900B2E67D /* UIColor+Init.swift */,
 				1D958A192406B75F008E0E58 /* UIColor+RKAdd.swift */,
 				1DE595B2241D3D2E00B2E67D /* UIControl+RKAdd.swift */,
+				1D20BF4928F558D700B21C32 /* UIDevice+RKAdd.swift */,
+				1D20BF4B28F5593600B21C32 /* UIEdgeInsets+RKAdd.swift */,
+				1D20BF4D28F5595900B21C32 /* UIFont+RKAdd.swift */,
 				1D958A152406B75F008E0E58 /* UIImage+RKAdd.swift */,
 				1DE595B4241D3D5300B2E67D /* UIImageView+Init.swift */,
 				1DE595B6241D3D6800B2E67D /* UILabel+Init.swift */,
+				1D20BF4F28F55A3300B21C32 /* UIScrollView+RKAdd.swift */,
 				1DE595B8241D3DE100B2E67D /* UITableView+Register.swift */,
 				1DE595BA241D3E1000B2E67D /* UITextField+Init.swift */,
 				1DE595BC241D3E2500B2E67D /* UITextView+Init.swift */,
 				1DE595BE241D3E4500B2E67D /* UIView+Init.swift */,
 				1DE595C0241D3E5B00B2E67D /* UIView+Layer.swift */,
+				1D20BF5128F55B9E00B21C32 /* UIViewController+RKAdd.swift */,
+				1D20BF5328F55BE100B21C32 /* URL+RKAdd.swift */,
+				1D20BF5528F55C0F00B21C32 /* UserDefaults+RKAdd.swift */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		1D958A102406B636008E0E58 /* Example */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Example;
 			sourceTree = "<group>";
 		};
 		221975432773711ED2D88455 /* Pods */ = {
@@ -306,30 +382,58 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D20BF2828F5525500B21C32 /* DispatchQueue+RKAdd.swift in Sources */,
+				1D20BF2428F54E9B00B21C32 /* CALayer+RKAdd.swift in Sources */,
 				1DE595B5241D3D5300B2E67D /* UIImageView+Init.swift in Sources */,
 				1D958A212406B75F008E0E58 /* UIColor+RKAdd.swift in Sources */,
+				1D20BF5028F55A3300B21C32 /* UIScrollView+RKAdd.swift in Sources */,
 				1D9589FC2406B493008E0E58 /* AppDelegate.swift in Sources */,
 				1DE595AF241D3CE000B2E67D /* UICollectionView+Register.swift in Sources */,
 				1DE595C1241D3E5B00B2E67D /* UIView+Layer.swift in Sources */,
-				1DE595B1241D3D0900B2E67D /* UIColor+Init.swift in Sources */,
 				1DE595BB241D3E1000B2E67D /* UITextField+Init.swift in Sources */,
+				1D20BF4028F554C200B21C32 /* RKTimer.swift in Sources */,
 				1DE595A5241D3BAD00B2E67D /* Data+RKAdd.swift in Sources */,
+				1D20BF4828F556D400B21C32 /* UIActivityIndicatorView+Style.swift in Sources */,
 				1D958A1D2406B75F008E0E58 /* UIImage+RKAdd.swift in Sources */,
 				1D958A202406B75F008E0E58 /* UIButton+RKAdd.swift in Sources */,
 				1D958A1E2406B75F008E0E58 /* Date+RKAdd.swift in Sources */,
+				1D20BF4628F5560F00B21C32 /* TimeInterval+Clock.swift in Sources */,
+				1D20BF2628F54F2500B21C32 /* Collection+Safe.swift in Sources */,
+				1D20BF1828F54AED00B21C32 /* Array+Extension.swift in Sources */,
+				1D20BF5428F55BE100B21C32 /* URL+RKAdd.swift in Sources */,
+				1D20BF2E28F552E100B21C32 /* FileManager+RKAdd.swift in Sources */,
+				1D20BF4228F5550200B21C32 /* String+Path.swift in Sources */,
+				1D20BF3A28F5541A00B21C32 /* Runtime.swift in Sources */,
 				1DE595BD241D3E2500B2E67D /* UITextView+Init.swift in Sources */,
 				1DE595B9241D3DE100B2E67D /* UITableView+Register.swift in Sources */,
 				1DE595BF241D3E4500B2E67D /* UIView+Init.swift in Sources */,
 				1DE595A9241D3C7A00B2E67D /* Int+RKAdd.swift in Sources */,
-				1DE595AD241D3CC700B2E67D /* UIButton+Init.swift in Sources */,
+				1D20BF3428F5538300B21C32 /* NotificationName+RKAdd.swift in Sources */,
+				1D20BF3028F5534700B21C32 /* NotificationCenter+RKAdd.swift in Sources */,
 				1DE595AB241D3C9800B2E67D /* NSObject+ClassName.swift in Sources */,
+				1D20BF5228F55B9F00B21C32 /* UIViewController+RKAdd.swift in Sources */,
+				1D20BF3628F553E400B21C32 /* NSString+RKAdd.swift in Sources */,
+				1D20BF4A28F558D700B21C32 /* UIDevice+RKAdd.swift in Sources */,
 				1D958A232406B75F008E0E58 /* Dictionary+RKAdd.swift in Sources */,
+				1D20BF1E28F54BB500B21C32 /* Bool+RKAdd.swift in Sources */,
+				1D20BF5628F55C0F00B21C32 /* UserDefaults+RKAdd.swift in Sources */,
 				1D958A1C2406B75F008E0E58 /* RKCompatible.swift in Sources */,
+				1D20BF2028F54BD700B21C32 /* Bundle+Info.swift in Sources */,
+				1D20BF4428F555EA00B21C32 /* TimeConstants.swift in Sources */,
+				1D20BF1C28F54B7700B21C32 /* AVPlayer+RKAdd.swift in Sources */,
+				1D20BF1A28F54B2000B21C32 /* AVAsset+RKAdd.swift in Sources */,
+				1D20BF2C28F552C700B21C32 /* Error+RKAdd.swift in Sources */,
+				1D20BF2A28F5527A00B21C32 /* Double+RKAdd.swift in Sources */,
 				1D958A1F2406B75F008E0E58 /* String+RKAdd.swift in Sources */,
 				1DE595A7241D3C2500B2E67D /* RKUtility.swift in Sources */,
 				1DE595B7241D3D6800B2E67D /* UILabel+Init.swift in Sources */,
 				1DE595A3241D3B8800B2E67D /* CGFloat+Decimal.swift in Sources */,
+				1D20BF2228F54C6500B21C32 /* UIApplication+RKAdd.swift in Sources */,
+				1D20BF4C28F5593600B21C32 /* UIEdgeInsets+RKAdd.swift in Sources */,
+				1D20BF4E28F5595900B21C32 /* UIFont+RKAdd.swift in Sources */,
 				1D958A252406B816008E0E58 /* HomeViewController.swift in Sources */,
+				1D20BF3C28F5544E00B21C32 /* RKError.swift in Sources */,
+				1D20BF3828F5540400B21C32 /* Optional+RKAdd.swift in Sources */,
 				1DE595B3241D3D2E00B2E67D /* UIControl+RKAdd.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -473,7 +577,11 @@
 				DEVELOPMENT_TEAM = 7ABRZ6326B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RKTithau/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.rickke.RKTithau;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "rick all";
@@ -493,7 +601,11 @@
 				DEVELOPMENT_TEAM = 7ABRZ6326B;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = RKTithau/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = tw.rickke.RKTithau;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "rick all";

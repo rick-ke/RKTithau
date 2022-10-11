@@ -6,10 +6,22 @@
 //  Copyright © 2020 RickKe. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 extension Int {
     var toBool: Bool {
-        return self != 0
+        return (self as NSNumber).boolValue
+    }
+    
+    var toCGFloat: CGFloat {
+        return CGFloat(self)
+    }
+    
+    var toDouble: Double {
+        return Double(self)
+    }
+    
+    var toString: String {
+        return (self as NSNumber).stringValue
     }
 }

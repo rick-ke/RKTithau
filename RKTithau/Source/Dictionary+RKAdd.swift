@@ -16,21 +16,17 @@ extension Dictionary {
     
     var toJsonData: Data? {
         guard JSONSerialization.isValidJSONObject(self) else {
-            printError(msg: "Dictionary is invalid JSONObject")
+            print(error: "Dictionary is invalid JSONObject")
             return nil
         }
-        
-        do {
-            let data = try JSONSerialization.data(withJSONObject: self, options: .prettyPrinted)
-            return data
-        } catch {
-            printError(msg: error)
-            return nil
-        }
+        let data = try? JSONSerialization.data(withJSONObject: self, options: .prettyPrinted)
+        return data
     }
     
     var toJsonString: String? {
-        guard let jsonData = self.toJsonData else { return nil }
+        guard let jsonData = self.toJsonData else {
+            return nil
+        }
         let jsonString = String(bytes: jsonData, encoding: .utf8)
         return jsonString?
             .replacingOccurrences(of: " ", with: "")
@@ -38,14 +34,11 @@ extension Dictionary {
     }
     
     func decode<T: Decodable>(_ model: T.Type) -> T? {
-        guard let jsonData = self.toJsonData else { return nil }
-        do {
-            let model = try JSONDecoder().decode(model.self, from: jsonData)
-            return model
-        } catch {
-            printError(msg: "[\(model)] \(error)")
+        guard let jsonData = self.toJsonData else {
             return nil
         }
+        let model = try? JSONDecoder().decode(model.self, from: jsonData)
+        return model
     }
 }
 
