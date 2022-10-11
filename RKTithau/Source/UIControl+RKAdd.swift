@@ -8,25 +8,42 @@
 
 import UIKit
 
+private var kTouchClosureKey: Void?
+
 extension UIControl {
-    typealias Handler = () -> Void
-    
-    private static var closureKey = "kUIControlClosure"
-    private var closure: Handler {
-        get {
-            return objc_getAssociatedObject(self, &UIControl.closureKey) as! Handler
-        }
-        set {
-            objc_setAssociatedObject(self, &UIControl.closureKey, newValue, objc_AssociationPolicy.OBJC_ASSOCIATION_RETAIN_NONATOMIC)
+    enum TouchEventType {
+        case down, downRepeat, dragInside, dragOutside, dragEnter, dragExit, upInside, upOutside, cancel
+        
+        var nativeEvent: UIControl.Event {
+            switch self {
+            case .down:             return .touchDown
+            case .downRepeat:       return .touchDownRepeat
+            case .dragInside:       return .touchDragInside
+            case .dragOutside:      return .touchDragOutside
+            case .dragEnter:        return .touchDragEnter
+            case .dragExit:         return .touchDragExit
+            case .upInside:         return .touchUpInside
+            case .upOutside:        return .touchUpOutside
+            case .cancel:           return .touchCancel
+            }
         }
     }
     
-    func touchHandler(_ handler: @escaping Handler) {
-        closure = handler
-        addTarget(self, action: #selector(actionControl), for: .touchUpInside)
+    private var controlTouchClosure: Handler? {
+        get { return getAssociatedObject(self, &kTouchClosureKey) }
+        set { setRetainedAssociatedObject(self, &kTouchClosureKey, newValue) }
     }
     
-    @objc private func actionControl() {
-        closure()
+    func touch(_ event: TouchEventType, handler: @escaping Handler) {
+        controlTouchClosure = handler
+        self.addTarget(self, action: #selector(touchActionControl), for: event.nativeEvent)
+    }
+    
+    func touchUpInside(handler: @escaping Handler) {
+        touch(.upInside, handler: handler)
+    }
+    
+    @objc private func touchActionControl() {
+        controlTouchClosure?()
     }
 }

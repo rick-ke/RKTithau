@@ -11,40 +11,44 @@ import UIKit
 extension UICollectionView {
     enum SectionViewKind {
         case header, footer
-    }
-    
-    func register(cell: AnyClass?) {
-        let cellType = cell as? NSObject.Type
-        let cellName = cellType?.className ?? ""
-        self.register(cell, forCellWithReuseIdentifier: cellName)
-    }
-    
-    func register(cells: [AnyClass?]) {
-        cells.forEach { register(cell: $0) }
-    }
-    
-    func reusable(cell: AnyClass, for indexPath: IndexPath) -> UICollectionViewCell? {
-        return dequeueReusableCell(withReuseIdentifier: String(describing: cell.self), for: indexPath)
-    }
-    
-    func register(view: AnyClass?, kind: SectionViewKind) {
-        let viewType = view as? NSObject.Type
-        let viewName = viewType?.className ?? ""
-        switch kind {
-        case .header:
-            self.register(view, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: viewName)
-        case .footer:
-            self.register(view, forSupplementaryViewOfKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: viewName)
+        
+        var element: String {
+            switch self {
+            case .header:   return UICollectionView.elementKindSectionHeader
+            case .footer:   return UICollectionView.elementKindSectionFooter
+            }
         }
     }
     
-    func reusable(view: AnyClass, kind: SectionViewKind, for indexPath: IndexPath) -> UICollectionReusableView {
+    func register(_ cell: UICollectionViewCell.Type) {
+        let identifier = String(describing: cell.self)
+        self.register(cell, forCellWithReuseIdentifier: identifier)
+    }
+    
+    func dequeueReusable<T: UICollectionViewCell>(_ cell: T.Type, for indexPath: IndexPath) -> T {
+        return dequeueReusableCell(withReuseIdentifier: String(describing: cell.self), for: indexPath) as! T
+    }
+    
+    func register(_ view: UICollectionReusableView.Type, ofKind kind: SectionViewKind) {
         let identifier = String(describing: view.self)
-        switch kind {
-        case .header:
-            return dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: identifier, for: indexPath)
-        case .footer:
-            return dequeueReusableSupplementaryView(ofKind: UICollectionView.elementKindSectionFooter, withReuseIdentifier: identifier, for: indexPath)
-        }
+        return self.register(view, forSupplementaryViewOfKind: kind.element, withReuseIdentifier: identifier)
+    }
+    
+    func dequeueReusable<T: UICollectionReusableView>(_ view: T.Type, ofKind kind: SectionViewKind, for indexPath: IndexPath) -> T {
+        let identifier = String(describing: view.self)
+        return dequeueReusableSupplementaryView(ofKind: kind.element, withReuseIdentifier: identifier, for: indexPath) as! T
+    }
+}
+
+extension UICollectionView {
+    /// 預設 sectino = 0, animated = true
+    func selectItem(at row: Int) {
+        selectItem(at: row, animated: true)
+    }
+    
+    /// 預設 sectino = 0
+    func selectItem(at row: Int, animated: Bool) {
+        let indexPath = IndexPath(row: row, section: 0)
+        selectItem(at: indexPath, animated: animated, scrollPosition: .init())
     }
 }
